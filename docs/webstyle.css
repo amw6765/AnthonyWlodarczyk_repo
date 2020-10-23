@@ -8,3 +8,8 @@ ol {list-style-type: lower-alpha;
 padding: 5em;
     
 }
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #F15930;
+	}
