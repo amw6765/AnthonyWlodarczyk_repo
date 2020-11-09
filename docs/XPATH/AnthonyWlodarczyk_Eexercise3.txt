@@ -1,23 +1,25 @@
 1
-a. ''//sd[contains(text(), 'Russian')]'' 11 items
+a. ''//sd[contains(text(), 'Russian')]'' (11 items)
 
-b.
+b. ''//sp[matches(., '[A-Z]+')]''(THIS IS NOT FINISHED)
 
 c.
 
 d.
+
 
 2
-a.
+a. ''//sd ! string-length()'' (524 items)
 
-b.
+b. ''//sd ! string-length() => max()'' (842 result)
 
 c.
 
 d.
 
+
 3
-a.
+a ''//sp[contains(., 'Iraq')]/spk'' (BOND)
 
 b.
 
